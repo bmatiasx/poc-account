@@ -30,8 +30,8 @@
             <AppenderRef ref="RollingFile" />
         </Root>
 
-        <!-- LOG "com.simtlix.consultafijapoc.account*" at TRACE level -->
-        <Logger name="com.simtlix.consultafijapoc.account" level="trace"></Logger>
+        <!-- LOG "com.andromedcodealab.consultafijapoc.account*" at TRACE level -->
+        <Logger name="com.andromedcodealab.consultafijapoc.account" level="trace"></Logger>
     </Loggers>
 
 </Configuration>
