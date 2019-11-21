@@ -11,11 +11,14 @@ import java.util.List;
 @Service
 public class CustomerService {
 
-    @Autowired
     private CustomerRepository customerRepository;
+    private AccountService accountService;
 
     @Autowired
-    private AccountService accountService;
+    public CustomerService(CustomerRepository customerRepository, AccountService accountService) {
+        this.customerRepository = customerRepository;
+        this.accountService = accountService;
+    }
 
     public Customer findByAccountId(Long accountId) {
         Customer customer = customerRepository.findByAccountId(accountId);

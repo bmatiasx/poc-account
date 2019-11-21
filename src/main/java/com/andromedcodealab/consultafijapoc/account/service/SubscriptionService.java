@@ -9,8 +9,13 @@ import java.util.List;
 
 @Service
 public class SubscriptionService {
-    @Autowired
+
     private SubscriptionRepository subscriptionRepository;
+
+    @Autowired
+    public SubscriptionService(SubscriptionRepository subscriptionRepository) {
+        this.subscriptionRepository = subscriptionRepository;
+    }
 
     public List<Subscription> findAllByAccountId(Long accountId) {
 

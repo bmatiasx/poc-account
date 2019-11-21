@@ -15,16 +15,20 @@ import java.util.stream.Collectors;
 @Service
 public class AddressService {
 
-    @Autowired
-    AddressRepository addressRepository;
+
+    private AddressRepository addressRepository;
+    private SubscriptionService subscriptionService;
 
     @Autowired
-    private SubscriptionService subscriptionService;
+    public AddressService(AddressRepository addressRepository, SubscriptionService subscriptionService) {
+        this.addressRepository = addressRepository;
+        this.subscriptionService = subscriptionService;
+    }
 
     public List<Address> findAllByAccountId(Long accountId) {
         List<Subscription> subscriptions;
         Set<Address> addresses = addressRepository.findAllByAccountId(accountId).stream().collect(Collectors.toSet());
-        List<Address> customerAdresses = new ArrayList<>();
+        List<Address> customerAddresses = new ArrayList<>();
 
         for (Address address : addresses) {
             address = replaceNullAddressValues(address);
@@ -38,10 +42,10 @@ public class AddressService {
                     customerSubscriptions.add(s);
                 }
             }
-            customerAdresses.add(setCustomerAddress(address, customerSubscriptions));
+            customerAddresses.add(setCustomerAddress(address, customerSubscriptions));
         }
 
-        return customerAdresses;
+        return customerAddresses;
     }
 
     private Address setCustomerAddress(Address address, Set<Subscription> subscriptions) {

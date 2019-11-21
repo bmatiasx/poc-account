@@ -14,10 +14,14 @@ import java.util.Set;
 @Service
 public class AccountService {
 
-    @Autowired
     private AccountRepository accountRepository;
-    @Autowired
     private AddressService addressService;
+
+    @Autowired
+    public AccountService(AccountRepository accountRepository, AddressService addressService) {
+        this.accountRepository = accountRepository;
+        this.addressService = addressService;
+    }
 
     public List<Account> findAllByCustomer(Customer customer) {
         List<Address> addresses;
