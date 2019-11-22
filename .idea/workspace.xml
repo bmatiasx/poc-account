@@ -212,14 +212,17 @@
       <find>claro</find>
       <find>enablejpa</find>
       <find>EBILL</find>
+      <find>andromedcodealab</find>
     </findStrings>
     <replaceStrings>
       <replace>account</replace>
       <replace>andromedcodealab</replace>
       <replace>TEST</replace>
+      <replace>andromedacodealab</replace>
     </replaceStrings>
     <dirStrings>
       <dir>C:\Users\elca\IdeaProjects\poc-account</dir>
+      <dir>C:\Users\elca\IdeaProjects\poc-account\src\main\java\com\andromedcodealab\consultafijapoc\account</dir>
     </dirStrings>
   </component>
   <component name="Git.Settings">
@@ -283,11 +286,11 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="7">
-    <option name="x" value="-65" />
-    <option name="y" value="-660" />
-    <option name="width" value="1296" />
-    <option name="height" value="704" />
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="-8" />
+    <option name="y" value="181" />
+    <option name="width" value="1944" />
+    <option name="height" value="1073" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
