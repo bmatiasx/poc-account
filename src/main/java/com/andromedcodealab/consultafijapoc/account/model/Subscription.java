@@ -10,7 +10,7 @@ import javax.persistence.Table;
 import java.util.Objects;
 
 @Entity
-@Table(name = "VW_FIXED_SERVICES", schema = "EBILL")
+@Table(name = "VW_FIXED_SERVICES", schema = "TEST")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Subscription {
 

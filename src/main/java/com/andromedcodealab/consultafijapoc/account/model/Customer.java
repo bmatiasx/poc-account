@@ -10,7 +10,7 @@ import javax.persistence.Transient;
 import java.util.List;
 
 @Entity
-@Table(name = "VW_FIXED_SERVICES", schema = "EBILL")
+@Table(name = "VW_FIXED_SERVICES", schema = "TEST")
 @JsonInclude(JsonInclude.Include.NON_NULL)
 public class Customer {
 
