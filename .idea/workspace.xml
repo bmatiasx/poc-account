@@ -2,23 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="f82cf988-c20c-402a-84c0-8cd36bfd4b3c" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/AccountApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/AccountApplication.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/SecurityConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/controller/AccountController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/controller/AccountController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/model/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/model/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/Customer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/model/Customer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/Subscription.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/model/Subscription.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/builder/AccountBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/model/builder/AccountBuilder.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/repository/AccountRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/repository/AccountRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/repository/AddressRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/repository/AddressRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/repository/CustomerRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/repository/CustomerRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/repository/SubscriptionRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/repository/SubscriptionRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/AccountService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/service/AccountService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/AddressService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/service/AddressService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/CustomerService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/service/CustomerService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/SubscriptionService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/service/SubscriptionService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/andromedcodealab/consultafijapoc/account/AccountApplicationTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/andromedacodealab/consultafijapoc/account/AccountApplicationTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -93,15 +78,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="AccountApplication.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/AccountApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="105">
-              <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="CustomerRepository.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/repository/CustomerRepository.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -144,11 +120,20 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="AccountController.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/controller/AccountController.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+            <state relative-caret-position="97">
+              <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
             </state>
           </provider>
         </entry>
@@ -256,6 +241,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/SubscriptionService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/model/Account.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/andromedcodealab/consultafijapoc/account/service/AccountService.java" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
   </component>
@@ -504,7 +490,7 @@
       <workItem from="1574298964525" duration="2854000" />
       <workItem from="1574374146503" duration="5397000" />
       <workItem from="1574383407413" duration="947000" />
-      <workItem from="1574385764091" duration="1622000" />
+      <workItem from="1574385764091" duration="2071000" />
     </task>
     <servers />
   </component>
@@ -526,11 +512,10 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29515000" />
+    <option name="totallyTimeSpent" value="29964000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-132" y="-1088" width="1936" height="1066" extended-state="7" />
-    <editor active="true" />
+    <frame x="-7" y="-7" width="1295" height="704" extended-state="6" />
     <layout>
       <window_info anchor="right" id="Palette" order="4" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
@@ -548,11 +533,11 @@
       <window_info id="Image Layers" order="2" />
       <window_info anchor="bottom" id="Java Enterprise" order="12" />
       <window_info anchor="right" id="Capture Analysis" order="5" />
-      <window_info anchor="bottom" id="Version Control" order="11" />
+      <window_info anchor="bottom" id="Version Control" order="11" weight="0.41219962" />
       <window_info anchor="bottom" id="Run" order="4" weight="0.42307693" />
       <window_info anchor="bottom" id="Spring" order="0" />
-      <window_info anchor="bottom" id="Terminal" order="9" weight="0.4587156" />
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.21908316" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="9" visible="true" weight="0.45841035" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.25020242" />
       <window_info anchor="right" id="Bean Validation" order="9" />
       <window_info id="Web" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Find" order="3" />
@@ -602,20 +587,36 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
+              <option name="COLUMN_ORDER">
+                <list>
+                  <option value="0" />
+                  <option value="1" />
+                  <option value="2" />
+                  <option value="3" />
+                </list>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/service/AddressService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="118" lean-forward="true" selection-start-line="29" selection-start-column="118" selection-end-line="29" selection-end-column="118" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="255">
@@ -1018,8 +1019,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/andromedacodealab/consultafijapoc/account/controller/AccountController.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="21" column="22" selection-start-line="21" selection-start-column="22" selection-end-line="21" selection-end-column="22" />
+        <state relative-caret-position="97">
+          <caret line="17" lean-forward="true" selection-start-line="17" selection-end-line="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" column="7" selection-start-line="3" selection-start-column="7" selection-end-line="3" selection-end-column="7" />
         </state>
       </provider>
     </entry>
