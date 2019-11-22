@@ -1,9 +1,9 @@
-package com.andromedcodealab.consultafijapoc.account.service;
+package com.andromedacodealab.consultafijapoc.account.service;
 
-import com.andromedcodealab.consultafijapoc.account.model.Account;
-import com.andromedcodealab.consultafijapoc.account.model.Address;
-import com.andromedcodealab.consultafijapoc.account.model.Customer;
-import com.andromedcodealab.consultafijapoc.account.repository.AccountRepository;
+import com.andromedacodealab.consultafijapoc.account.model.Account;
+import com.andromedacodealab.consultafijapoc.account.model.Address;
+import com.andromedacodealab.consultafijapoc.account.model.Customer;
+import com.andromedacodealab.consultafijapoc.account.repository.AccountRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 
@@ -15,10 +15,10 @@ import java.util.Set;
 public class AccountService {
 
     private AccountRepository accountRepository;
-    private AddressService addressService;
+    private com.andromedacodealab.consultafijapoc.account.service.AddressService addressService;
 
     @Autowired
-    public AccountService(AccountRepository accountRepository, AddressService addressService) {
+    public AccountService(AccountRepository accountRepository, com.andromedacodealab.consultafijapoc.account.service.AddressService addressService) {
         this.accountRepository = accountRepository;
         this.addressService = addressService;
     }

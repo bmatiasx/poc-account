@@ -1,4 +1,4 @@
-package com.andromedcodealab.consultafijapoc.account;
+package com.andromedacodealab.consultafijapoc.account;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

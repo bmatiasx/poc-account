@@ -1,4 +1,4 @@
-package com.andromedcodealab.consultafijapoc.account;
+package com.andromedacodealab.consultafijapoc.account;
 
 import org.keycloak.adapters.KeycloakConfigResolver;
 import org.keycloak.adapters.springboot.KeycloakSpringBootConfigResolver;

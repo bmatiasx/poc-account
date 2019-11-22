@@ -1,8 +1,8 @@
-package com.andromedcodealab.consultafijapoc.account.service;
+package com.andromedacodealab.consultafijapoc.account.service;
 
-import com.andromedcodealab.consultafijapoc.account.model.Account;
-import com.andromedcodealab.consultafijapoc.account.model.Customer;
-import com.andromedcodealab.consultafijapoc.account.repository.CustomerRepository;
+import com.andromedacodealab.consultafijapoc.account.model.Account;
+import com.andromedacodealab.consultafijapoc.account.model.Customer;
+import com.andromedacodealab.consultafijapoc.account.repository.CustomerRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 

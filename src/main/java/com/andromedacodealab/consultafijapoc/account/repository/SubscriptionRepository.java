@@ -1,6 +1,6 @@
-package com.andromedcodealab.consultafijapoc.account.repository;
+package com.andromedacodealab.consultafijapoc.account.repository;
 
-import com.andromedcodealab.consultafijapoc.account.model.Subscription;
+import com.andromedacodealab.consultafijapoc.account.model.Subscription;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 import java.util.List;

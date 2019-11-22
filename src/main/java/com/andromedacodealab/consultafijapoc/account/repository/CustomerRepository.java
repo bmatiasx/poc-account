@@ -1,6 +1,6 @@
-package com.andromedcodealab.consultafijapoc.account.repository;
+package com.andromedacodealab.consultafijapoc.account.repository;
 
-import com.andromedcodealab.consultafijapoc.account.model.Customer;
+import com.andromedacodealab.consultafijapoc.account.model.Customer;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface CustomerRepository extends JpaRepository<Customer, Integer> {

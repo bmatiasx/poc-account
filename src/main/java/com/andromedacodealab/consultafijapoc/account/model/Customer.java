@@ -1,4 +1,4 @@
-package com.andromedcodealab.consultafijapoc.account.model;
+package com.andromedacodealab.consultafijapoc.account.model;
 
 import com.fasterxml.jackson.annotation.JsonInclude;
 

@@ -1,7 +1,7 @@
-package com.andromedcodealab.consultafijapoc.account.controller;
+package com.andromedacodealab.consultafijapoc.account.controller;
 
-import com.andromedcodealab.consultafijapoc.account.model.Customer;
-import com.andromedcodealab.consultafijapoc.account.service.CustomerService;
+import com.andromedacodealab.consultafijapoc.account.model.Customer;
+import com.andromedacodealab.consultafijapoc.account.service.CustomerService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;

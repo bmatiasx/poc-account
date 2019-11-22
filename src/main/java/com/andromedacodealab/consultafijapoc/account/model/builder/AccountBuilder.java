@@ -1,6 +1,6 @@
-package com.andromedcodealab.consultafijapoc.account.model.builder;
+package com.andromedacodealab.consultafijapoc.account.model.builder;
 
-import com.andromedcodealab.consultafijapoc.account.model.Account;
+import com.andromedacodealab.consultafijapoc.account.model.Account;
 
 public class AccountBuilder {
     

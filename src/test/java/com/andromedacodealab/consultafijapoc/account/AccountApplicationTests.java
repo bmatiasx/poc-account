@@ -1,4 +1,4 @@
-package com.andromedcodealab.consultafijapoc.account;
+package com.andromedacodealab.consultafijapoc.account;
 
 import com.andromedcodealab.consultafijapoc.account.controller.AccountController;
 import com.andromedcodealab.consultafijapoc.account.service.AccountService;
